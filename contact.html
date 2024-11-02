@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>CV - Djev Rego</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigatie Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" alt="logo">
+        </a>
+        <!-- Hamburger menu button for mobile view -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cv.html">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ervaring.html">ERVARING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobby.html">HOBBY'S</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr class="navigatie_lijn">
+
+
+    <div class="container">
+        <header class="mb-4">
+            <h2>CONTACT</h2>
+        </header>
+            <div class="contact">
+                <form id="contactForm" class="contact-container" action="https://tm-statweb.be/forms.php" method="post" novalidate>
+                    <div class="form-select-1">
+                        <div class="form-group mb-3 surname">
+                            <label for="surname">Naam *</label>
+                            <input type="text" id="surname" name="surname" class="form-control" placeholder="..." required>
+                        </div>
+                        <div class="form-group mb-3 name">
+                            <label for="name">Voornaam *</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="..." required>
+                        </div>
+                    </div>   
+
+                    <div class="form-select-2">
+                        <!-- E-mailadres (verplicht) -->
+                        <div class="form-group mb-3 email">
+                            <label for="email">E-mailadres *</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="..." required>
+                        </div>
+        
+                        <!-- Interesse in skills (selectielijst) -->
+                        <div class="form-group mb-3 selectie">
+                            <div class="select-wrapper">
+                                <label for="skills">Welke skill?</label>
+                                <select id="skills" name="skills" class="form-control skills">
+                                    <option value="" disabled selected>...</option>
+                                    <option value="html">HTML</option>
+                                    <option value="css">CSS</option>
+                                    <option value="javascript">JavaScript</option>
+                                    <option value="python">Python</option>
+                                    <option value="csharp">C#</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Vraag (groot tekst vak) -->
+                    <div class="form-group mb-3">
+                        <label for="question">Bericht</label>
+                        <textarea id="question" name="question" class="form-control question" rows="6" placeholder="..."></textarea>
+                    </div>
+    
+                    <!-- Verstuur knop -->
+                    <div class="button my-3 text-center">
+                        <button type="submit" class="btn btn-primary">Versturen</button>
+                    </div>
+                </form>
+            </div>
+    </div>
+    
+
+
+    <!-- Footer Section -->
+    <footer class="text-center">
+        <div class="footer-nav">
+            <ul class="list-unstyled d-flex justify-content-center flex-wrap">
+                <li class="mx-3"><a href="index.html">HOME</a></li>
+                <li class="mx-3"><a href="cv.html">CV</a></li>
+                <li class="mx-3"><a href="ervaring.html">ERVARING</a></li>
+                <li class="mx-3"><a href="hobby.html">HOBBY'S</a></li>
+                <li class="mx-3"><a href="#"><strong>CONTACT</strong></a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-icons my-3">
+            <a href="https://www.linkedin.com/in/djev-rego-271b78227/" class="fa fa-linkedin-square" aria-hidden="true" target="_blank"></a>
+            <a href="mailto:regodjev@outlook.com" class="fa fa-envelope" aria-hidden="true"></a>
+            <a href="https://www.instagram.com/regodjev/" class="fa fa-instagram" aria-hidden="true" target="_blank"></a>
+            <a href="https://www.facebook.com/pregodnb/" class="fa fa-facebook-official" aria-hidden="true" target="_blank"></a>
+        </div>
+    
+        <p>&copy; 2024 Djev Rego. All rights reserved.</p>
+    </footer>
+    <script src="js/javascript.js"></script>
+    <!-- jQuery (nodig voor Bootstrap's JS functionaliteiten) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
