@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Djev Rego</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/x-icon" href="img/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigatie Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/logo.png" alt="logo">
+        </a>
+        <!-- Hamburger menu button for mobile view -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link font-weight-bold" href="#">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cv.html">CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ervaring.html">ERVARING</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobby.html">HOBBY'S</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <hr class="navigatie_lijn">
+
+    <header class="homepage container py-5">
+        <div class="row align-items-center">
+            <!-- Voorstelling Sectie -->
+            <div class="col-lg-6 text-lg-start text-center mb-4">
+                <h1>Hey!<br />Ik ben <strong>Djev</strong>,</h1>
+                <p class="info">ik ben 21 jaar oud en zit op dit moment op het Thomas More in Geel. Mijn studiekeuze is programmeren.</p>
+                
+                <!-- Contact Button -->
+                <div class="button my-3 text-center">
+                    <a href="contact.html" class="btn btn-primary">CONTACTEER MIJ</a>
+                </div>
+    
+                <!-- Social Media Icons -->
+                <div class="icons text-center">
+                    <a href="https://www.linkedin.com/in/djev-rego-271b78227/" class="fa fa-linkedin-square" aria-hidden="true" target="_blank"></a>
+                    <a href="mailto: regodjev@outlook.com" class="fa fa-envelope" aria-hidden="true"></a>
+                    <a href="https://www.instagram.com/regodjev/" class="fa fa-instagram" aria-hidden="true" target="_blank"></a>
+                    <a href="https://www.facebook.com/pregodnb/" class="fa fa-facebook-official" aria-hidden="true" target="_blank"></a>
+                </div>
+            </div>
+    
+            <!-- Persoonlijke Foto -->
+            <div class="col-lg-6 text-lg-end">
+                <img src="img/persoonlijkefoto.jpg" alt="foto_djev" class="img-fluid rounded shadow-sm">
+            </div>
+        </div>
+    </header>
+
+    <!-- CV Section -->
+    <section class="cv container my-5">
+        <h2>CV</h2>
+        <div class="cvbarbutton text-center">
+            <div class="cvbar">
+                <div class="progress-bar-1">
+                    <label for="html">HTML</label>
+                    <progress id="html" value="87" max="100"> 87% </progress>
+                </div>
+                <div class="progress-bar-1">
+                    <label for="css">CSS</label>
+                    <progress id="css" value="71" max="100"> 71% </progress>
+                </div>
+                <div class="progress-bar-1">
+                    <label for="javascript">JAVASCRIPT</label>
+                    <progress id="javascript" value="32" max="100"> 32% </progress>
+                </div>
+                <div class="progress-bar-1">
+                    <label for="c#">C#</label>
+                    <progress id="c#" value="5" max="100"> 5% </progress>
+                </div>
+                <div class="progress-bar-1">
+                    <label for="python">PYTHON</label>
+                    <progress id="python" value="24" max="100"> 24% </progress>
+                </div>
+            </div>
+            <div class="button my-3 text-center">
+                <a href="cv.html" class="btn btn-primary">VOLLEDIGE CV</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ERVARING Section -->
+    <section class="ervaring container my-5">
+        <div class="ervaring-tekst">
+            <h2 class="ervaring-titel">E<br>R<br>V<br>A<br>R<br>I<br>N<br>G</h2>
+        </div>
+        <div class="vaardigheden-button">
+            <div class="vaardigheden">
+                <article class="ervaring-item ervaring-right">
+                    <div class="div1"><h3>Ervaring 1</h3></div>
+                    <div class="div2"><img src="img/ervaring1.jpg" alt="ervaring_foto_1"></div>
+                </article>
+                <article class="ervaring-item ervaring-left">
+                    <div class="div4"><h3>Ervaring 2</h3></div>
+                    <div class="div5"><img src="img/ervaring2.jpg" alt="ervaring_foto_2"></div>
+                </article>
+                <article class="ervaring-item ervaring-right">
+                    <div class="div1"><h3>Ervaring 3</h3></div>
+                    <div class="div2"><img src="img/ervaring3.jpg" alt="ervaring_foto_3"></div>
+                </article>
+            </div>
+        
+            <div class="button my-3 text-center">
+                <a href="ervaring.html"><button type="button" class="btn btn-primary">MEER ERVARINGEN</button></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer class="text-center">
+        <div class="footer-nav">
+            <ul class="list-unstyled d-flex justify-content-center flex-wrap">
+                <li class="mx-3"><a href="#"><strong>HOME</strong></a></li>
+                <li class="mx-3"><a href="cv.html">CV</a></li>
+                <li class="mx-3"><a href="ervaring.html">ERVARING</a></li>
+                <li class="mx-3"><a href="hobby.html">HOBBY'S</a></li>
+                <li class="mx-3"><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    
+        <div class="footer-icons my-3">
+            <a href="https://www.linkedin.com/in/djev-rego-271b78227/" class="fa fa-linkedin-square" aria-hidden="true" target="_blank"></a>
+            <a href="mailto:regodjev@outlook.com" class="fa fa-envelope" aria-hidden="true"></a>
+            <a href="https://www.instagram.com/regodjev/" class="fa fa-instagram" aria-hidden="true" target="_blank"></a>
+            <a href="https://www.facebook.com/pregodnb/" class="fa fa-facebook-official" aria-hidden="true" target="_blank"></a>
+        </div>
+    
+        <p>&copy; 2024 Djev Rego. All rights reserved.</p>
+    </footer>
+    <script src="js/javascript.js"></script>
+    <!-- jQuery (nodig voor Bootstrap's JS functionaliteiten) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
